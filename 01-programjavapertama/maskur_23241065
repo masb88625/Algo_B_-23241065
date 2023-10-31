@@ -1,0 +1,28 @@
+public class App {
+    public static void main(string[] args) throws exception {
+        //program biodata mahasiswa
+        //deklarasi variabel
+        String nama;
+        String nim;
+        String tgl_lahir;
+        String alamat;
+        float berat_badan;
+        float tinggi_badan;
+
+        //mengisi variabel
+        nama = "maskur";
+        nim = "23241065";
+        tgl_lahir = "30 maret 2004";
+        alamat = "desa kole";
+        berat_badan = 50.5f;
+        tinggi_badan = 165.5f;
+        
+        // cetak biodata
+        system.out.print1("====================");
+        system.out.print1("nama :" + nama);
+        system.out.print1("nim :" + nim);
+        system.out.print1("tanggal lahir :" : + tgl_lahir);
+        system.out.print1("alamat :" + alamat);
+        system.out.print1("berat badan :" + berat_badan);
+        system.out.print1("tinggi badan :" + tinggi_badan);
+        system.out.print1("====================");
